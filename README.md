@@ -1,3 +1,4 @@
+![License](https://img.shields.io/github/license/Strong-Bee/Ghost-Server-V1?style=flat-square)
 <p align="center">
   <img src="Electron/Assets/100ppi/Logo 3.png" alt="Ghost Server Logo" width="300"/>
 </p>
