@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "electron": "^37.4.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
   }
 }
