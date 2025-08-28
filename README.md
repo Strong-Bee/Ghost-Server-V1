@@ -1,6 +1,13 @@
-# <textcenter>👻 Ghost Server</textcenter>
-Ghost Server adalah Web Server Lokal buatan sendiri (alternatif XAMPP/Laragon) yang rapi, fleksibel, dan mendukung project berbasis **PHP, Laravel, CodeIgniter, dan Static HTML**.  
-Selain itu, Ghost Server sudah dilengkapi **Electron.js Control Panel** sehingga mudah digunakan lewat GUI.
+#<p align="center">
+  <img src="electron/assets/ghost-icon.png" alt="Ghost Server Logo" width="120"/>
+</p>
+
+<h1 align="center">Ghost Server</h1>
+
+<p align="center">
+  Web Server Lokal buatan sendiri (alternatif XAMPP/Laragon) yang rapi, fleksibel, dan mendukung project berbasis <b>PHP, Laravel, CodeIgniter, dan Static HTML</b>.  
+  Dilengkapi dengan <b>Electron.js Control Panel</b> untuk kemudahan penggunaan melalui GUI.
+</p>
 
 ---
 
