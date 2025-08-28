@@ -1,0 +1,69 @@
+# <textcenter>👻 Ghost Server</textcenter>
+Ghost Server adalah Web Server Lokal buatan sendiri (alternatif XAMPP/Laragon) yang rapi, fleksibel, dan mendukung project berbasis **PHP, Laravel, CodeIgniter, dan Static HTML**.  
+Selain itu, Ghost Server sudah dilengkapi **Electron.js Control Panel** sehingga mudah digunakan lewat GUI.
+
+---
+
+## 📂 Struktur Folder
+
+```bash
+GhostServer/
+├── bin/                     # Binary / Executable server
+│   ├── php/                 # PHP runtime
+│   │   └── php.exe / php.ini
+│   ├── nginx/               # Nginx binary
+│   │   └── nginx.exe / nginx.conf
+│   └── mysql/               # MySQL/MariaDB binary
+│       └── mysqld.exe / my.ini
+│
+├── config/                  # Konfigurasi server
+│   ├── vhosts.conf          # Virtual Host konfigurasi
+│   ├── php.ini              # Custom konfigurasi PHP
+│   └── nginx.conf           # Custom konfigurasi Nginx
+│
+├── logs/                    # Log server
+│   ├── access.log
+│   └── error.log
+│
+├── database/                # Data MySQL/MariaDB
+│   ├── mysql/               # Database sistem
+│   └── projects/            # Database tiap project
+│
+├── ssl/                     # Sertifikat SSL lokal
+│   ├── localhost.crt
+│   ├── localhost.key
+│   └── ca.pem
+│
+├── backup/                  # Backup database & project
+│   ├── db/                  # Backup database
+│   └── projects/            # Backup project website
+│
+├── www/                     # Root semua project website
+│   ├── project1/            # Contoh project Laravel
+│   │   ├── public/          
+│   │   ├── app/             
+│   │   ├── storage/         
+│   │   └── vendor/          
+│   │
+│   ├── project2/            # Contoh project CodeIgniter
+│   │   ├── public/          
+│   │   ├── app/             
+│   │   ├── storage/         
+│   │   └── vendor/          
+│   │
+│   └── static-site/         
+│       ├── public/          
+│       └── storage/         
+│
+├── electron/                # Aplikasi GUI Ghost Server (Electron.js)
+│   ├── package.json         # Konfigurasi project Electron
+│   ├── main.js              # Main process Electron
+│   ├── preload.js           # Preload script (jembatan renderer ↔ main)
+│   ├── renderer/            # Frontend GUI (React/Vue/Tailwind, dll.)
+│   │   ├── index.html
+│   │   ├── styles.css
+│   │   └── app.js
+│   └── assets/              # Ikon & resource UI
+│       └── ghost-icon.png
+│
+└── README.md                # Dokumentasi Ghost Server
