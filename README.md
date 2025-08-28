@@ -3,8 +3,12 @@
 </p>
 
 <h1 align="center">Ghost Server</h1>
-<h2 align="center">![License](https://img.shields.io/github/license/Strong-Bee/Ghost-Server-V1?style=flat-square)</h2>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/Strong-Bee/Ghost-Server-V1?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron">
+</p>
 
 <p align="center">
   Web Server Lokal buatan sendiri (alternatif XAMPP/Laragon) yang rapi, fleksibel, dan mendukung project berbasis <b>PHP, Laravel, CodeIgniter, dan Static HTML</b>.  
