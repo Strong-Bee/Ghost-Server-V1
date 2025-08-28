@@ -18,9 +18,9 @@ src/output.css
 # =========================
 # FontAwesome
 # =========================
-fontawesome-free-*/webfonts/
-fontawesome-free-*/metadata/
-fontawesome-free-*/LICENSE.txt
+# FontAwesome desktop / metadata
+Electron/fontawesome-free-*/metadata/
+Electron/fontawesome-free-*/LICENSE.txt
 
 # =========================
 # Environment files
