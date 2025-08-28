@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Electron/Assets/100ppi/Logo 1.png" alt="Ghost Server Logo" width="120"/>
+  <img src="Electron/Assets/100ppi/Logo 3.png" alt="Ghost Server Logo" width="300"/>
 </p>
 
 <h1 align="center">Ghost Server</h1>
