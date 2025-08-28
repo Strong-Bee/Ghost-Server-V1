@@ -69,7 +69,7 @@ GhostServer/
 └── README.md                # Dokumentasi Ghost Server
 ```
 ## 📦 Cara Instalasi
-🔹 Windows
+### 🖥️ Windows
 
 1. Download paket Ghost Server untuk Windows (ZIP/Installer).
 
@@ -91,7 +91,7 @@ C:\GhostServer\
 http://localhost/
 ```
 
-🔹 macOS (MacBook)
+### 🍏 macOS (MacBook)
 
 1. Download paket Ghost Server untuk macOS (ZIP/DMG).
 
