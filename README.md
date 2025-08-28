@@ -1,10 +1,10 @@
-![License](https://img.shields.io/github/license/Strong-Bee/Ghost-Server-V1?style=flat-square)
 <p align="center">
   <img src="Electron/Assets/100ppi/Logo 3.png" alt="Ghost Server Logo" width="300"/>
 </p>
 
 <h1 align="center">Ghost Server</h1>
 
+![License](https://img.shields.io/github/license/Strong-Bee/Ghost-Server-V1?style=flat-square)
 <p align="center">
   Web Server Lokal buatan sendiri (alternatif XAMPP/Laragon) yang rapi, fleksibel, dan mendukung project berbasis <b>PHP, Laravel, CodeIgniter, dan Static HTML</b>.  
   Dilengkapi dengan <b>Electron.js Control Panel</b> untuk kemudahan penggunaan melalui GUI.
