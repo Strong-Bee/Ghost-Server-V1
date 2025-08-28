@@ -86,3 +86,36 @@ C:\GhostServer\
 5. Klik Start Server untuk menjalankan PHP, Nginx, dan MySQL.
 
 6. Akses project kamu di browser lewat:
+
+```bash
+http://localhost/
+```
+
+🔹 macOS (MacBook)
+
+1. Download paket Ghost Server untuk macOS (ZIP/DMG).
+
+2. Extract / Install ke folder Applications atau folder pilihan, contoh:
+
+```bash
+/Users/<username>/GhostServer/
+```
+
+
+3. Pastikan permission executable sudah aktif:
+
+```bash
+chmod +x bin/php/php
+chmod +x bin/nginx/nginx
+chmod +x bin/mysql/mysqld
+```
+
+Jalankan GUI GhostServer.app (Electron GUI).
+
+Klik Start Server untuk menyalakan PHP, Nginx, dan MySQL.
+
+Akses project kamu di browser lewat:
+
+```bash
+http://localhost/
+```
