@@ -67,3 +67,22 @@ GhostServer/
 │       └── ghost-icon.png
 │
 └── README.md                # Dokumentasi Ghost Server
+```
+## 📦 Cara Instalasi
+🔹 Windows
+
+1. Download paket Ghost Server untuk Windows (ZIP/Installer).
+
+2. Extract ke folder yang diinginkan, contoh:
+
+```bash
+C:\GhostServer\
+```
+
+3. Pastikan folder bin/php/, bin/nginx/, dan bin/mysql/ sudah ada.
+
+4. Jalankan GhostServer.exe (Electron GUI) di folder electron/.
+
+5. Klik Start Server untuk menjalankan PHP, Nginx, dan MySQL.
+
+6. Akses project kamu di browser lewat:
